@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- TODO: Add description -->
+    <title>Basic page structure :: Handbook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[-DESCRIPTION-]">
+    <meta name="author" content="Charles F. Munat">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="all">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css" media="all">
+    <link rel="stylesheet" href="/css/main.css" media="all">
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header role="banner">
+      <!-- TODO: Add or remove placeohoders as necessary -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header" role="navigation">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="/">The Web Developer Handbook</a></h1>
+          </div>
+          <nav class="navbar-collapse collapse" role="navigation">
+            <h2 class="sr-only">Site Navigation</h2>
+            <ul class="nav navbar-nav" role="menubar">
+              <li role="presentation"><a href="/setup" role="menuitem">Setup</a></li>
+              <li role="presentation"><a href="/primer" role="menuitem">Primer</a></li>
+              <li role="presentation"><a href="/about-us" role="menuitem">About us</a></li>
+              <li role="presentation"><a href="/contact-us" role="menuitem">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="container" role="main">
+      <div class="row">
+        <aside id="sidebar" class="col-md-3 sidebar-nav">
+          <h2 class="sr-only">Sidebar</h2>
+          <nav role="navigation">
+            <h3 class="sr-only">Topic/page navigation</h3>
+            <ol role="menu">
+              <li role="presentation">
+                <a href="/primer/anatomy-of-a-web-page" role="menuitem">Anatomy of a Web page</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/the-osi-model" role="menuitem">The OSI model</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/fundamentals-of-html" role="menuitem">Fundamentals of HTML</a>
+              </li>
+              <!-- TODO: Add links to page sections and subsections -->
+              <li role="presentation">
+                <div class="current-page" role="menuitem">Basic page structure</div>
+                <div class="toc-header">On this page:</div>
+                <ol role="menu">
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SECTION-]</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SECTION-]</a>
+                    <ol role="menu">
+                      <li role="presentation">
+                        <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SUBSECTION-]</a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li role="presentation">
+                <a href="/primer/the-document-outline" role="menuitem">The document outline</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/aria-and-roles" role="menuitem">ARIA and roles</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/personas-stories-wireframes" role="menuitem">Personas, etc.</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/architecting-the-page" role="menuitem">Architecting the page</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the content</a>
+              </li>
+              <li role="presentation">
+                <a href="/primer/first-review" role="menuitem">First review</a>
+              </li>
+            </ol>
+          </nav>
+        </aside>
+        <article id="lesson" class="col-md-9">
+          <header>
+            <div class="breadcrumb-trail">
+              <a href="/" title="To the home page">Home</a> ::
+              <a href="/primer" title="To the Primer page">Primer</a> ::
+            </div>
+            <h2 class="lesson-title"><span class="sr-only">Lesson: </span>Basic page structure</h2>
+            <!-- TODO: Add lesson objectives -->
+            <section id="lesson-objectives">
+              <h3>Lesson objectives</h3>
+              <ul class="objectives">
+                <li>[-LESSON OBJECTIVE-]</li>
+              </ul>
+            </section>
+          </header>
+          <!-- TODO: Add introductory material and sections as needed -->
+          <section id="introductory-material">
+            <h3 class="sr-only">Introductory material</h3>
+          </section>
+          <section id="[-SECTION ID-]">
+            <h3>[-SECTION TITLE-]</h3>
+          </section>
+          <footer role="presentation">
+            <!-- TODO: Add measures of success -->
+            <section id="success-measures" class="measures">
+              <h4>Measuring successful lesson completion</h4>
+              <p>[-INTRODUCTORY TEXT-]</p>
+              <ul>
+                <li>[-MEASURE OF SUCCESS-]</li>
+              </ul>
+            </section>
+            <!-- TODO: Add frequently asked questions -->
+            <section id="lesson-faq">
+              <h4>Frequently asked questions</h4>
+              <dl class="faq">
+                <dt>[-QUESTION-]</dt>
+                <dd>[-ANSWER-]</dd>
+              </dl>
+            </section>
+            <!-- TODO: Add additional resource links -->
+            <section id="additional-resources">
+              <h4>Additional resources</h4>
+              <ul class="resources">
+                <li><a href="[-RESOURCE URL-]" title="[-RESOURCE DESCRIPTION-]">[-RESOURCE TITLE-]</a></li>
+              </ul>
+            </section>
+          </footer>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <section id="copyright" class="col-md-3">
+            <h2 class="sr-only">Copyright</h2>
+            <p id="site-license">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons License"
+                  src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+              </a>
+            </p>
+            <p class="the-fine-print">
+              <cite>The Web Developer Handbook</cite><br>
+              by Charles F. Munat is licensed under a<br>
+              <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+                Creative Commons Attribution-ShareAlike 4.0 International License</a><br>
+              and is based on a work at<br>
+              <a href="https://github.com/chasm/handbook">https://github.com/chasm/handbook</a>.
+            </p>
+          </section>
+          <nav id="site-map" class="col-md-6" role="navigation">
+            <h2 class="sr-only">Site map</h2>
+            <div class="row">
+              <ul role="menu">
+                <li role="presentation" class="col-md-4">
+                  <a href="/setup" role="menuitem"
+                    title="Instructions to be carried out before beginning the primer"
+                    >Setup</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/about-us" role="menuitem"
+                    title="Information about Charles F. Munat and how this book came about"
+                    >About us</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/terms-of-use" role="menuitem"
+                    title="The legal disclaimer users agree to when using this website"
+                    >Terms of use</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/primer" role="menuitem"
+                    title="The primer: lessons for developing state-of-the-art websites"
+                    >Primer</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/contact-us" role="menuitem"
+                    title="How to contact the author of The Web Developer Handbook"
+                    >Contact us</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/privacy-policy" role="menuitem"
+                    title="The privacy policy for The Web Developer Handbook site"
+                    >Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <section id="contact" class="col-md-3">
+            <h2 class="sr-only">Contact info</h2>
+            <p>
+              Contact me via GMail at<br>
+              charles [.] munat.
+            </p>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+/*
+ * danger      #d2322d     rgb( 210,  50,  45 )     hsla(   2, 64.7%,  50.0%, 1 )    red
+ * warning     #ed9c28     rgb( 237, 156,  40 )     hsla(  35, 84.5%,  54.3%, 1 )    orange
+ * success     #47a447     rgb(  71, 164,  71 )     hsla( 120, 39.6%,  46.0%, 1 )    green
+ * success:h   #367d36     rgb(  54, 125,  54 )     hsla( 120, 39.6%,  35.0%, 1 )    darker green
+ * info        #39b3d7     rgb(  57, 179, 215 )     hsla( 194, 66.4%,  53.3%, 1 )    cyan
+ * primary     #3276b1     rgb(  50, 118, 177 )     hsla( 208, 55.9%,  44.5%, 1 )    blue
+ * light text  #ffffff     rgb( 255, 255, 255 )     hsla(   0,  0.0%, 100.0%, 1 )    white
+ * crumbs      #b3b3b3     rgb( 179, 179, 179 )     hsla(   0,  0.0%,  60.0%, 1 )    medium gray
+ * dark text   #414158     rgb(  65,  65,  88 )     hsla( 240, 15.0%,  30.0%, 1 )    dark bluish gray
+ * bs border   #e7e7e7     rgb( 231, 231, 231 )     hsla(   0,  0.0%,  90.6%, 1 )    very light gray
+ * bs gradient #f8f8f8     rgb( 248, 248, 248 )     hsla(   0,  0.0%,  97.3%, 1 )    lighter gray
+ * sidebar     #fafafa     rgb( 250, 250, 250 )     hsla(   0,  0.0%,  98.0%, 1 )    lightest gray
+ */
+
+body {
+  font-size: 18px;
+  min-height: 2000px;
+  color: hsla( 240, 15.0%, 30.0%, 1 );
+}
+
+main { margin-top: 80px; }
+
+
+/* ========== Top navbar ========== */
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.navbar-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default span.navbar-brand,
+.navbar-default span.navbar-brand:hover,
+.navbar-default a.navbar-brand { color: hsla( 208, 55.9%, 44.5%, 1 ); }
+.navbar-default a.navbar-brand:hover { color: hsla( 194, 66.4%, 53.3%, 1 ); }
+
+.nav > li > span.current-page {
+  position: relative;
+  display: block;
+  padding: 15px;
+}
+
+.navbar-nav > li > span.current-page {
+  line-height: 20px;
+}
+
+.navbar-nav > li > span.current-page {
+  text-shadow: 0 1px 0 hsla( 0, 0%, 100.0%, 0.25 );
+}
+
+.navbar-default .navbar-nav span.current-page {
+  color: hsla( 2, 64.7%, 60.0%, 1 );
+  background-color: hsla( 0, 0.0%, 90.6%, 1 );
+}
+
+
+.nav > li > span.current-page {
+  position: relative;
+  display: block;
+  padding: 15px;
+}
+
+.navbar-nav > li > span.current-page {
+  line-height: 20px;
+}
+
+.navbar-nav > li > span.current-page {
+  text-shadow: 0 1px 0 hsla( 0, 0%, 100.0%, 0.25 );
+}
+
+.navbar-default .navbar-nav span.current-page {
+  color: hsla( 2, 64.7%, 50.0%, 1 );
+  background-color: hsla( 0, 0.0%, 90.6%, 1 );
+}
+
+
+/* ========== Breadcrumb trail ========== */
+
+.breadcrumb-trail {
+  font-size: 14px;
+  margin-top: 13px;
+  color: hsla( 0, 0.0%, 70.0%, 1 );
+}
+
+
+/* ========== Sidebar ========== */
+
+aside.sidebar-nav {
+  padding-top: 10px;
+  background-color: hsla(   0,  0.0%,  98.0%, 1 );
+}
+
+aside.sidebar-nav ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+aside.sidebar-nav ol ol { padding-left: 15px; }
+aside.sidebar-nav ol ol a { color: hsla( 120, 39.6%, 46.0%, 1 ); }
+aside.sidebar-nav ol ol a:hover { color: hsla( 120, 39.6%, 35.0%, 1 ); }
+
+aside.sidebar-nav ol ol ol {
+  font-size: 90%;
+  list-style-type: disc;
+  color: hsla( 35, 84.5%, 54.3%, 1 );
+  padding-left: 20px;
+}
+
+aside.sidebar-nav ol ol ol a { color: hsla( 35, 84.5%, 54.3%, 1 ); }
+aside.sidebar-nav ol ol ol a:hover { color: hsla(  35, 84.5%, 44.0%, 1 ); }
+
+aside.sidebar-nav .current-page { color: hsla( 2, 64.7%, 50.0%, 1 ); }
+
+.toc-header {
+  font-size: 14px;
+  color: hsla( 0, 0.0%, 60.0%, 1 );
+}
+
+
+/* ========== Headings ========== */
+
+h2.page-title,
+h2.lesson-title {
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 10px;
+  padding: 10px;
+  color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+h2.page-title { background-color: hsla( 120, 39.6%, 46.0%, 1 ); }
+h2.lesson-title { background-color: hsla( 208, 55.9%, 44.5%, 1 ); }
+
+h3,
+h4 {
+  font-size: 27px;
+  font-weight: normal;
+  color: hsla( 120, 39.6%, 46.0%, 1 );
+}
+
+
+/* ========== Phrasing content ========== */
+
+mark.keyword {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 107%;
+  color: hsla( 2, 64.7%, 50.0%, 1 );
+  background-color: inherit;
+}
+
+cite,
+em,
+strong { color: hsla( 120, 39.6%, 46.0%, 1 ); }
+
+cite { font-style: italic; }
+
+
+/* ========== Header/footer sections ========== */
+
+.objectives,
+.measures ul,
+.measures p,
+.resources {
+  font-size: 22px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+
+/* ========== Personas ========== */
+
+.personas figure { padding: 15px; }
+
+figcaption {
+  font-size: 22px;
+  color: hsla( 35, 84.5%, 54.3%, 1 );
+}
+
+.personas figcaption { margin: 0 0 5px -15px; }
+
+dl.persona dt {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px;
+  color: hsla( 0, 0.0%, 100.0%, 1 );
+  border-top: 1px solid hsla( 0, 0.0%, 100.0%, 1 );
+}
+
+dl.persona dd {
+  font-size: 16px;
+  padding: 12px 10px;
+  background-color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+
+dl.persona div { margin: 15px; }
+
+#student-persona div,
+#student-persona dl.persona dt { background-color: hsla( 120, 39.6%, 46.0%, 1 ); }
+#student-persona img { border: 1px solid hsla( 120, 39.6%, 46.0%, 1 ); }
+
+#instructor-persona div,
+#instructor-persona dl.persona dt { background-color: hsla( 208, 55.9%, 44.5%, 1 ); }
+#instructor-persona img { border: 1px solid hsla( 208, 55.9%, 44.5%, 1 ); }
+
+#guest-persona div,
+#guest-persona dl.persona dt { background-color: hsla( 35, 84.5%, 54.3%, 1 ); }
+#guest-persona img { border: 1px solid hsla( 35, 84.5%, 54.3%, 1 ); }
+
+
+/* ========== Story formats ========== */
+
+dl.story-formats dt { font-weight: normal; }
+dl.story-formats dd { margin: 20px 40px; }
+
+b.generic-element,
+b.specific-element {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 107%;
+  font-weight: normal;
+  background-color: inherit;
+}
+b.generic-element { color: hsla( 2, 64.7%, 50.0%, 1 ); }
+b.specific-element { color: hsla( 120, 39.6%, 46.0%, 1 ); }
+
+
+/* ========== Wireframes ========== */
+
+.wireframes img { margin-top: 20px; }
+
+
+/* ========== FAQ ========== */
+
+dl.faq { font-size: 22px; }
+dl.faq dt {
+  font-weight: normal;
+  color: hsla( 2, 64.7%, 50.0%, 1 );
+}
+dl.faq dd { margin: 0 40px 20px; }
+
+
+/* ========== Footer ========== */
+
+body > footer {
+  font-size: 14px;
+  padding: 20px 0;
+  background-color: hsla( 0, 0.0%, 97.3%, 1 );
+  background-image: linear-gradient(to top, hsla( 0, 0.0%, 100.0%, 1 ) 0%,
+    hsla( 0, 0.0%, 97.3%, 1 ) 100%);
+  background-repeat: repeat-x;
+  border-width: 1px 0 0;
+  border-color: hsla( 0, 0.0%, 90.6%, 1 );
+  -webkit-box-shadow: inset 0 -1px 0 hsla( 0, 0.0%, 100.0%, 0.15),
+    0 -1px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 -1px 0 hsla( 0, 0.0%, 100.0%, 0.15),
+    0 -1px 5px hsla( 0, 0.0%, 0.0%, 0.075);
+}
+
+footer nav span.current-page {
+  font-weight: bold;
+  color: hsla( 2, 64.7%, 50.0%, 1 );
+}
+
+article footer { margin-top: 40px; }
+
+.the-fine-print { font-size: 12px; }
+
+
+/* ========== Site map ========== */
+
+footer nav ul { list-style-type: none; }
